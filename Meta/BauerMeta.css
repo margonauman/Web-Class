@@ -1,6 +1,6 @@
 /*
  Margo Nauman
- March 28, 2017
+ April 11, 2018
  CSS for Meta Assignment
 */
 
@@ -11,9 +11,25 @@
 
 }
 
+/* h1 attributes */
+
+h1 {
+	text-decoration: underline;
+	font-size: 150%;
+	/* this increases the font 1 and a half times its normal size */
+	text-align: center;
+}
+
 /* Put body attributes here */
 
 body {
 	background-color: pink;
 	color: black;
+	font-family: "Times New Roman", sans-serif, serif;
+}
+
+/* attributes that apply to all images */
+
+img {
+	float: right;
 }
