@@ -18,12 +18,13 @@ h1 {
 	font-size: 150%;
 	/* this increases the font 1 and a half times its normal size */
 	text-align: center;
+	background-color: #b4e0e8;
 }
 
 /* Put body attributes here */
 
 body {
-	background-color: pink;
+	background-color: lightgray;
 	color: black;
 	font-family: "Times New Roman", sans-serif, serif;
 }
@@ -32,4 +33,11 @@ body {
 
 img {
 	float: right;
+}
+
+/*paragraph attributes*/
+
+p {
+	background-color: white;
+	color: #0c2e60;
 }
