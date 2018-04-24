@@ -1,0 +1,53 @@
+/*
+ Margo Nauman
+ April 25, 2018
+ CSS for Girl Develop It
+*/
+
+
+/* this is  class selector that I am using for the attributes of the logo */
+
+header {
+	background-color: #F3616B;
+	text-align: center;
+}
+
+/* Put body attributes here */
+
+body {
+	background-color: #FFE1DF;
+	font-family: sans-serif;
+}
+
+/* h1 attributes */
+
+h1 {
+	text-decoration: underline;
+	font-family: cursive;
+}
+
+/* this is class selector that I am using for the attributes the two pictures next to each other labeled with the class "float" */
+
+.float {
+	float: right;
+}
+
+/* h2 attributes */
+
+h2 {
+	text-decoration: underline;
+	font-family: cursive;
+}
+
+/* this attribute is for all links so when you hover over them they turn fuchsia and get larger */
+
+a:hover, a:focus {
+	color: fuchsia;
+	font-size: 150%;
+}
+
+/* this is a type selector for everything in the footer section */
+
+footer {
+	font-family: serif;
+}
