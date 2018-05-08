@@ -1,0 +1,50 @@
+/*
+ Margo Nauman
+ May 3, 2018
+ CSS for Box Model
+*/
+
+*{ /* resets margin and padding to 0 for all elements so I can control them */
+	margin: 0;
+	padding: 0;
+}
+
+/* Put main attributes here */
+
+main {
+	height: 150px;
+	width: 550px;
+ 	border: 2px solid black;
+ 	padding: 10px;
+}
+
+/* Put body attributes here */
+
+body {
+	height: 180px;
+	width: 620px;
+ 	border: 2px dotted black;
+ 	padding: 20px;
+ 	margin: 10px;
+}
+
+
+/* h1 attributes */
+
+h1 {
+	height: 50px;
+	width: 500px;
+	border: 1px dashed black;
+	padding: 5px;
+	margin: 10px;
+}
+
+/* p attributes */
+
+p {
+	height: 50px;
+ 	width: 500px;
+ 	border: 1px dashed black;
+ 	padding: 5px;
+ 	margin: 10px;
+}
