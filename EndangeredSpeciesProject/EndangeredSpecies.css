@@ -1,0 +1,87 @@
+/*
+ Margo Nauman
+ May 11, 2018
+ CSS for Endangered Species Project
+*/
+
+/*universal selector*/
+
+*{ /* resets margin and padding to 0 for all elements so I can control them */
+	margin: 0;
+	padding: 0;
+}
+
+/*body attributes*/
+
+body {
+	background-color: #b9cec9;
+	font-family: sans-serif;
+	margin: 25px;
+}
+
+/*header attributes*/
+
+header {
+	border-bottom: 5px solid #d85f27; /*only makes a line for the bottom border of the header*/
+}
+
+/*h1 attributes*/
+
+h1 {
+	margin: 15px;
+	font-family: cursive;
+	color: #d85f27;
+}
+
+/*h2 attributes*/
+
+h2 {
+	margin:15px;
+	color: #d85f27;
+}
+
+/*paragraph (p) attributes*/
+
+p {
+	margin: 10px;
+}
+
+/*img attributes*/
+
+img {
+	width: 180px;
+	height: 150px;
+	border: 2px solid black;
+}
+
+/*a class selector that selects only the things marked with the floatleft class in the html*/
+
+.floatleft {
+	width: 165px;
+	height: 120px;
+	float: left;
+	margin: 15px;
+	border: 2px solid black;
+}
+
+/*a class selector that selects only the things marked with the center class in the html*/
+
+.center {
+	margin: 30px;
+}
+
+/*a class selector that selects only the things marked with the floatright class in the html*/
+
+.floatright {
+	width: 500px;
+	height: 300px;
+	float: right;
+	border: 2px solid #d85f27;
+}
+
+/*footer attributes*/
+
+footer {
+	font-size: 70%;
+	border-top: 5px solid #d85f27; /*only makes a line for the top border of the footer*/
+}
